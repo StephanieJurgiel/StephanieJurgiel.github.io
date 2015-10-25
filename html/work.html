@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Stephanie Jurgiel's Portfolio</title>
+<link rel="stylesheet" type="text/css" href="../css/work_style.css"/>
+<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../js/work.js"></script>
+
+</head>
+<body>
+<div id="main">
+	<header>
+		<div id ="name">
+			<h1>Stephanie Jurgiel </h1>
+		</div>
+		
+		<nav id="navigation">
+			<ul>
+				<li id="home"><a href="http://people.rit.edu/snj6366"> HOME </a></li>
+				<li id="about"><a href="http://people.rit.edu/snj6366/html/aboutme.html#aboutPage"> ABOUT ME </a></li>
+				<li id="work"><a href="http://people.rit.edu/snj6366/html/work.html#cSharpPage" class="currentNav" id="workNav"> WORK </a></li>
+				<li id="contact"><a href="contact.html"> CONTACT </a></li> 
+			</ul>
+		</nav>
+	</header>
+	<div id = "contactInfo">
+			<img src="../images/phone.png" alt="phone: " height="20" width="20" />
+			<p id ="number"> 508 - 868 - 8634 </p>
+			
+			<img src="../images/email.png" alt="email: " height="20" width="20" />
+			<p id="email"> snj6366@rit.edu </p>
+		</div>
+	<hr>
+
+	
+	<div id="intro">
+		<p id="big"> Welcome to my works page!</p>
+		<p id="small"> Take a look at some of the projects I have made for my classes.</p>
+	</div><!--end intro-->
+	
+	<div id="content">
+		<!-- second navigation -->
+		<div id="secondnav">
+			<ul>
+				<li class="firstlist"><a href="#" id="programmingNav" class="currentNav"> PROGRAMMING </a>
+					<ul>
+						<li class="secondlist"><a href="#" id="cSharpNav" class="currentNav"> C#</a></li>
+						<li class="secondlist"><a href="#" id="javaNav"> Java</a></li>
+					</ul>
+				</li>
+				<li class="firstlist"><a href="#" id="modelsNav"> 3D MODELS </a></li>
+				<!--<li class="firstlist"><a href="#" id="animationsNav"> ANIMATIONS </a></li>-->	
+			</ul>
+		</div> 
+		<!-- end of second navigation -->
+		
+        <!-- THIS IS THE SECTION I ADDED -->
+		<section id="dynamicContent">
+            <!-- Start the c# page -->
+            <section id="cSharpPage" class="currentpage"> 
+                <section class="program">
+                    <figure>
+                        <img src="../images/ducks.png" alt="Preview from programmed duck project"/>
+                        <figcaption> This is a preview of my final project for my Interactive Media Development class. I created
+                                    a duck model with Maya, and a 3D pond scene in Unity. Using Monodevelop, in C#,
+                                    I programmed steering behaviors for the ducks. One duck freely swims around the pond while the
+									others follow.</figcaption>
+                    </figure>
+                </section>
+                <section class="program">
+                    <figure>
+                        <img src="../images/morbidreality.jpg" alt="Preview from programmed pinball project"/>
+                        <figcaption> This is a preview of a game that I worked on with a team of three other people. It is a puzzle 
+									platformer. The player must solve different levels of puzzles involving switches, keys, and falling 
+									boxes, while avoiding obstacles. If the player kills a monster the morality bar at the top of the 
+									screen starts to drain and the saturation of colors in the world gets darker. </figcaption>
+                    </figure>
+                </section>
+                <div class="empty">
+                </div>
+            </section>
+            <!-- End the c# page -->
+
+            <!--Start the java page -->
+            <section id="javaPage">
+                <section class="program">
+                    <figure>
+                        <img src="../images/pinball.jpg" alt="Preview from programmed pinball project"/>
+                        <figcaption > This is a preview of a pinball game I made using Processing, a programming language based on Java. The flippers
+                                    are controlled by the left and right arrow keys and the square spring which the ball initially rests on
+                                    is controlled by the mouse. Once released, physics is applied to the ball using the Box2d physics library. </figcaption>
+                    </figure>
+                </section>
+                <section class="program">
+                    <figure>
+                        <img src="../images/vehicles.jpg" alt="Preview from programmed vehicles project"/>
+                        <figcaption> This is a preview of a Braitenberg Vehicles simulation that I programmed for my Interactive Media
+                                    Development class. The vehicles have white sensors on the front which detect "light" from the circular lights
+                                    randomly placed around the screen. Vehicle motion depends on how the sensors react to the light.</figcaption>
+                    </figure>
+                </section>
+                <div class="empty">
+                </div>
+            </section>
+            <!-- End the java page -->
+			
+			<!-- start of models page -->
+			<section id="modelsPage">
+					<section class="model">
+						<figure>
+							<img src="../images/hamsterHouse.png" alt="Cartoon House Project"/>
+							<figcaption class="modelFigCap"> A cartoon house living room created for a 5 week 3D game class project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/bedroom.png" alt="Cartoon House Project"/>
+							<figcaption class="modelFigCap"> A cartoon house bedroom created for a 5 week 3D game class project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/teddybear.png" alt="Cartoon House Project"/>
+							<figcaption class="modelFigCap"> A cartoon teddy bear created for a 5 week 3D game class project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/bed.png" alt="Cartoon House Project"/>
+							<figcaption class="modelFigCap"> A cartoon bed created for a 5 week 3D game class project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/chest.png" alt="Cartoon House Project"/>
+							<figcaption class="modelFigCap"> A cartoon toy chest created for a 5 week 3D game class project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/fireplace.png" alt="Fireplace"/>
+							<figcaption class="modelFigCap"> A cartoon fireplace for the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					
+					<section class="model">
+						<figure>
+							<img src="../images/couch.png" alt="couch"/>
+							<figcaption class="modelFigCap"> A cartoon couch for the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/endTable.png" alt="end table"/>
+							<figcaption class="modelFigCap"> A cartoon end table for the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/bookshelf.png" alt="bookshelf"/>
+							<figcaption class="modelFigCap"> A cartoon bookshelf with books for the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/hamsterCage.png" alt="hamster cage"/>
+							<figcaption class="modelFigCap"> A hamster cage for the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/candle.png" alt="Cartoon Candle"/>
+							<figcaption class="modelFigCap"> A cartoon candle prop for the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/pouch.png" alt="Pouch"/>
+							<figcaption class="modelFigCap"> A pouch prop to be used as an inventory in the 5 week cartoon house project. </figcaption>
+						</figure>
+					</section>
+					
+			
+					<section class="model">
+						<figure>
+							<img src="../images/shoes.jpg" alt="shoes"/>
+							<figcaption class="modelFigCap"> A pair of high heel shoes created for fun. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/mapletree.jpg" alt="maple tree"/>
+							<figcaption class="modelFigCap"> A maple tree created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/tree.jpg" alt="tree"/>
+							<figcaption class="modelFigCap"> A regular tree created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/crane.jpg" alt="crane"/>
+							<figcaption class="modelFigCap"> A crane statue created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/vase.jpg" alt="vase"/>
+							<figcaption class="modelFigCap"> A vase created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/drum.jpg" alt="drum"/>
+							<figcaption class="modelFigCap"> A drum created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/bostaff.jpg" alt="bo staff rack"/>
+							<figcaption class="modelFigCap"> A wall bo staff rack created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/lantern.jpg" alt="outdoor lantern"/>
+							<figcaption class="modelFigCap"> An outdoor garden lantern created for a group project which was a walk through 3D game scene. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/human.jpg" alt="character model"/>
+							<figcaption class="modelFigCap"> A human character model created for a walk cycle animation project. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/chess.png" alt="chess set"/>
+							<figcaption class="modelFigCap"> A chess set created for a class assignment. </figcaption>
+						</figure>
+					</section>
+					<section class="model">
+						<figure>
+							<img src="../images/lamp.jpg" alt="indoor lamp"/>
+							<figcaption class="modelFigCap"> An indoor lamp created as a prop model for a class assignment. </figcaption>
+						</figure>
+					</section>
+			<div class="empty">
+			</div>
+		</section>
+		<!-- End of models page -->
+		
+		<!-- 
+		<section id="animationsPage">
+			<section class="video">
+				<figure>
+					<video class="vid" controls>
+						<source src="../videos/bowlingvideo.mp4" type="video/mp4">
+					</video>
+					<figcaption> This was my first animation for my 2D Animation class. I love to bowl and the bowling alley
+								I used to go to would play animations after each roll of the ball, so I created my video based on
+								that idea.</figcaption>
+				</figure>
+			</section>
+			<div class="empty">
+			</div>
+		-->
+		</section>
+			
+        </section>
+        <!-- end of section I added -->
+		
+	</div><!--end content-->
+	<footer> 
+		<p> &#169; Stephanie Jurgiel 2014. Last updated December 18, 2014. </p>
+		<p><a href="notes.html"> Click for citations </a></p>
+	</footer>
+</div><!-- end main-->
+</body>
+</html>

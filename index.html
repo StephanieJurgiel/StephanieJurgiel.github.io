@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Stephanie Jurgiel's Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/indexPage.js"></script>
+
+
+</head>
+<body>
+
+<header>
+	<div id="headerContent">
+		<div id="navigationLeft">
+			<ul>
+				<li><a href="#" id="about"> ABOUT ME </a></li>
+				<li><a href="#" id="work"> WORK </a></li>
+			</ul>
+		</div>
+		
+		<div id="logo">
+			<img src="images/SJ.png" alt="logo"/>
+		</div>
+		
+		<div id="navigationRight">
+			<ul>
+				<li><a href="#" id="contact"> CONTACT </a></li>
+				<li><a href="#" id="resume"> RESUME </a></li>
+			</ul>
+		</div>
+	</div>
+	<hr/>
+</header>
+
+<div id="main">
+	<section class="content currentpage" id="projectContent"><!-- Start Project Content -->
+		<h1 class="pageTitle"> MY WORK </h1>
+	
+		<section class="project">
+			<h2 class ="title">MAP MY PRODUCT</h2>
+			<h3 class ="title">Technology: HTML5, JavaScript, jQuery, JSON  </h3>
+			<div class="projectText">
+				
+				<p>This project is an HTML5 Web App Mashup. It is a product locator using the Best Buy Product, Best Buy Stores, and Google Maps APIs.
+				Search for a product and find Best Buy stores within your chosen radius that have the product in stock.</P>
+				<div id="ProductUrl">
+					<p> Link: <a href="http://people.rit.edu/snj6366/330/projecttwo/" class="url" target="_blank">Map My Product </a></p>
+				</div>
+			</div>
+			<img class="projectImage" src="images/MapMyProduct.png" alt="MapMyProductPreview"/>
+		</section>
+		
+		<div class="dots"> 
+			<img src="images/dots.png" alt="dots" class="dotsImage"/>
+		</div>
+		
+		<section class="project">
+			<h2 class ="title">PARTICLE JAM</h2>
+			<h3 class="title"> Technology: HTML5, JavaScript </h3>
+			
+			<div class="projectText">
+				
+				<p>Particle Jam is a Javascript Web Game. Collect colored clouds that spawn to the music to get the highest score possible. 
+					Collect multiple clouds in a row to activate the points multiplier. Miss too many clouds, and the 
+					game is over.</P>
+				
+			</div>
+			<img class="projectImage" src="images/ParticleJam.png" alt="ParticleJamPreview"/>
+		</section>
+		
+		<div class="dots"> 
+			<img src="images/dots.png" alt="dots" class="dotsImage"/>
+		</div>
+		
+		<section class="project">
+			<h2 class ="title">OpenGL ENGINE</h2>
+			<h3 class ="title">Technology: C++, OpenGL, GLUT, GLEW, SOIL </h3>
+			
+			<div class="projectText">
+				
+				<p>This project is the beginnings of game engine created for my data structures and algorithms class.</p>
+				<p>Features:</p>
+					<ul>
+						<li>Procedurally generated and tesselated cube, sphere, cone, and cylinder meshes</li>
+						<li>Calculated normals and texture coordinates</li>
+						<li>Sphere-Sphere collision detection</li>
+						<li>Sphere-AABB collision detection</li>
+						<li>Octree collision detection</li>
+						<li>FPS camera controls</li>
+						<li>.obj model loading</li>
+					</ul>
+					
+			</div>
+			<img class="projectImage" src="images/OpenGLEngine.png" alt="OpenGLEnginePreview"/>
+		</section>
+		
+		<div class="dots"> 
+			<img src="images/dots.png" alt="dots" class="dotsImage"/>
+		</div>
+		
+		<section class="project">
+			<h2 class ="title">HAMSTER HOUSE</h2>
+			<h3 class ="title"> Technology: Maya, C#, Unity, Photoshop </h3>
+			
+			<div class="projectText">
+
+				<p> Hamster House is a project created in 5 weeks with a team of 4. Play as a hamster
+					and complete objectives around the house before the time runs out. I was responsible for 
+					modelling and bringing the environment into Unity, as well as some coding for interactions with 
+					the environment. </p>
+			</div>
+			<img class="projectImage" src="images/hamsterHouse.png" alt="HamsterPreview"/>
+		</section>
+		
+		<div class="dots"> 
+			<img src="images/dots.png" alt="dots" class="dotsImage"/>
+		</div>
+		
+		<section class="project">
+			<h2 class ="title">DUCKS AI</h2>
+			<h3 class ="title"> Technology: C#, Unity </h3>
+			
+			<div class="projectText">
+
+				<p>This project features steering and leader following behaviors for ducks in a pond.
+				One duck freely swims around the pond, while being contained in the water, 
+				while the others follow.</p>
+			</div>
+			<img class="projectImage" src="images/ducks.png" alt="DucksPreview"/>
+		</section>
+		
+	</section><!-- End Project Content-->
+
+	<section class="content" id="aboutMeContent">
+		<div id="aboutMe">
+				<img id="profile" src="images/profile.jpg" alt="Picture of me"/>
+
+			
+			<div id ="text">
+				<h1> About Me </h1>
+				<section class="paragraph">
+					<p> Hi! I'm Stephanie Jurgiel.
+					I am a fourth year student at Rochester Institute of Technology studying for
+					a Bachelors degree in </p><p class="hilight">  Game Design and Development</p>
+					<p>, and an immersion in Psychology. I love creating projects that I can be proud of and that can inspire others. </p>
+				</section>
+				<section class="paragraph">
+					<p> I enjoy </p> <p class="hilight"> working with a team</p> <p>, but am also great at using my </p>
+					<p class="hilight"> time management skills </p><p> to work efficiently independently. All work I do
+					is completed with one hundred percent effort to create the best work possible.</p>
+				</section>
+				<section class="paragraph">
+					<p> Please contact me with any questions.<p>
+				</section>
+				<section class="paragraph">
+					<p> Thank you for visiting! </p>
+				</section>
+			</div><!--end text-->
+		</div>
+	</section>
+	
+	<section id="contactMe"> 
+		<h1 class="pageTitle"> CONTACT ME </h1>
+		
+		<h3 id="contactHeader"> Questions? Comments? Please send me an email or give me a call! </h3>
+		
+		<div class="contactOption">
+			<img src="images/phone.png" alt="phone"/>
+			<p> (508) - 868 - 8634 </p>
+		</div>
+		<div class="contactOption">
+			<img src="images/email.png" alt="e-mail"/>
+			<p> snj6366@rit.edu </p>
+		</div>
+		<div class="contactOption">
+			<img src="images/linkedin.png" alt="LinkedIn"/>
+			<a href ="https://www.linkedin.com/pub/stephanie-jurgiel/8b/601/776"> Connect with me on LinkedIn </a>
+		</div>
+	</section>
+	
+	<section id="resumeContent">
+		<div id ="top">
+			<p><strong>Stephanie Jurgiel</strong></p>
+			<p>snj6366@rit.edu </p>
+			<p>(508) 868 - 8634</p>
+		</div>	
+
+		<div class = "contentgroup">
+			<section class = "resumetitle">
+				<p> education </p>
+			</section>
+			<section class = "content">
+				<p><strong> Rochester Institute of Technology, Rochester, NY </strong> <p>
+				<p>Major: Game Design and Development </p>
+				<p>Degree: Bachelor of Science expected December 2015</p>
+				<p>Concentration: Psychology </p>
+				<p>GPA: 3.97 </p>
+				<p>Dean's List: 2012 - 2014</p>
+			</section>
+		</div>
+		<div class = "contentgroup">
+			<section class = "resumetitle">
+				<p> relevant courses </p>
+			</section>
+			<section class = "content">
+				<ul>
+					<li> Game Software Development I, II, and III </li>
+					<li> Advanced Animation & Asset Production </li>
+					<li> Data Structures and Algorithms and Game Simulation I and II </li>
+					<li> Web Design & Development I and II </li>
+					<li> Rich Media Web App Development</li>
+					<li> Game Design and Development I, and II </li>
+					<li> 2D Animation for Interactive Media </li>
+					<li> Interactive Media Development </li>
+					<li> Interaction, Immersion, & the Media Interface </li>
+				</ul>
+			</section>
+		</div>
+		<div class = "contentgroup">
+			<section class = "resumetitle">
+				<p> skills </p>
+			</section>
+			<section class = "content">
+				<ul>
+					<li><strong> Programming Languages:</strong> C#, Java, C++, HTML, Javascript / jQuery, CSS3, OpenGL 3.x+ </li>
+					<li><strong> Development Software:</strong> Visual Studio, Eclipse, Unity, Maya, Adobe Photoshop, 
+						Processing, Flash
+						</li>
+					<li><strong> Other:</strong> Excellent time management and planning, 
+						Works efficiently in a team and independently, Desire to problem solve and learn necessary 
+						skills </li>
+				</ul>
+			</section>
+		</div>
+		<div class = "contentgroup">
+			<section class = "resumetitle">
+				<p> recent projects </p>
+			</section>
+			<section class = "skillscontent">
+				<ul>
+					<li> Created a Web App Mashup called Map My Product. It is a product locator that combines the Best
+						Buy Products, Best Buy Stores, and Google Maps APIs. </li>
+					<li> Created the beginnings of a game engine with C++ and OpenGL for a data structures class. Features procedurally
+						generated shapes, textures, normals, and octree implementation.</li>
+					<li> Created and programmed a 3D scene in Unity. Implemented leader following and containment 
+						steering behaviors. </li>
+
+				</ul>
+			</section>
+		</div>
+		
+		<div class = "contentgroup">
+			<section class = "resumetitle">
+				<p> Work Experience </p>
+			</section>
+			<section class = "jobcontent">
+				<p>iD Tech Camps - Instructor (July 2014 - August 2014)</p>
+					<ul>
+						<li>
+							Instructor for Game Programming for Apple iOS and Android with Unity, and 
+							Game Modding and Java Coding with Minecraft.
+						</li>
+					</ul>
+				
+			</section>
+		</div>
+	</section>
+</div><!--end main-->
+	
+<footer> 
+	<p> &#169; Stephanie Jurgiel 2015. Last updated March 25, 2015. </p>
+</footer>
+	
+</body>
+</html>
