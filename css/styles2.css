@@ -14,7 +14,6 @@ html, body {
 }
 
 .section {
-	padding-top: 50px;
 	padding-bottom: 50px;
 }
 /* Sections */
@@ -221,7 +220,7 @@ a {
 	text-decoration: none;
 	display: inline;
 	//color: #FBC02D;
-	color: #8BC34A;
+	color: #558B2F;
 	font-weight: 600;
 	
 	-webkit-transition: color 0.1s ease-in-out;
@@ -312,4 +311,8 @@ a:hover {
 .resumeContent {
 	max-width: 650px;
 	margin: 0 auto;
+}
+.pdfViewLink {
+	text-align:center;
+	margin-top: 20px;
 }
