@@ -294,7 +294,6 @@ a:hover {
 }
 
 .resumetitle {
-	text-transform: uppercase;
 	font-weight: bold;
 	color: #8E24AA;
 	font-size: 18px;
@@ -309,4 +308,8 @@ a:hover {
 }
 .skillscontent ul li {
 	padding-bottom: 4px;
+}
+.resumeContent {
+	max-width: 650px;
+	margin: 0 auto;
 }
