@@ -265,7 +265,7 @@ a:hover {
 }
 
 /* Fading */
-.contact, .work {
+.contact, .work, .resumeContent {
 	display: none;
 }
 .currentContent {

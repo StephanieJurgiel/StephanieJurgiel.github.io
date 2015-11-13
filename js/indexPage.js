@@ -27,7 +27,7 @@
 		$(".resumeNav").on("click", function(e) {
 			$(".currentContent").fadeOut(10);
 			$(".currentContent").removeClass("currentContent");
-			$("#resumeContent").fadeIn(1000);
-			$("#resumeContent").addClass("currentContent");
+			$(".resumeContent").fadeIn(1000);
+			$(".resumeContent").addClass("currentContent");
 		});
 	});
