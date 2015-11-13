@@ -2,32 +2,32 @@
 	
 	$(document).ready(function() {
 
-		$("#about").on("click", function(e) {
-			$(".currentpage").fadeOut(100);
-			$(".currentpage").removeClass();
-			$("#aboutMeContent").fadeIn(1000);
-			$("#aboutMeContent").addClass("currentpage");
+		$(".aboutNav").on("click", function(e) {
+			$(".currentContent").fadeOut(100);
+			$(".currentContent").removeClass("currentContent");
+			$(".aboutMe").fadeIn(1000);
+			$(".aboutMe").addClass("currentContent");
 
 		});
 		
-		$("#work").on("click", function(e) {
-			$(".currentpage").fadeOut(100);
-			$(".currentpage").removeClass();
-			$("#projectContent").fadeIn(1000);
-			$("#projectContent").addClass("currentpage");
+		$(".workNav").on("click", function(e) {
+			$(".currentContent").fadeOut(100);
+			$(".currentContent").removeClass("currentContent");
+			$(".work").fadeIn(1000);
+			$(".work").addClass("currentContent");
 		});
 		
-		$("#contact").on("click", function(e) {
-			$(".currentpage").fadeOut(100);
-			$(".currentpage").removeClass();
-			$("#contactMe").fadeIn(1000);
-			$("#contactMe").addClass("currentpage");
+		$(".contactNav").on("click", function(e) {
+			$(".currentContent").fadeOut(100);
+			$(".currentContent").removeClass("currentContent");
+			$(".contact").fadeIn(1000);
+			$(".contact").addClass("currentContent");
 		});
 
-		$("#resume").on("click", function(e) {
-			$(".currentpage").fadeOut(10);
-			$(".currentpage").removeClass();
+		$(".resumeNav").on("click", function(e) {
+			$(".currentContent").fadeOut(10);
+			$(".currentContent").removeClass("currentContent");
 			$("#resumeContent").fadeIn(1000);
-			$("#resumeContent").addClass("currentpage");
+			$("#resumeContent").addClass("currentContent");
 		});
 	});

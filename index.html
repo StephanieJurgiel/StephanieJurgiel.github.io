@@ -3,275 +3,259 @@
 <head>
 <meta charset="utf-8" />
 <title>Stephanie Jurgiel's Portfolio</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles2.css"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/indexPage.js"></script>
-
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 <body>
 
-<header>
-	<div id="headerContent">
-		<div id="navigationLeft">
-			<ul>
-				<li><a href="#" id="about"> ABOUT ME </a></li>
-				<li><a href="#" id="work"> WORK </a></li>
-			</ul>
-		</div>
-		
-		<div id="logo">
-			<img src="images/SJ.png" alt="logo"/>
-		</div>
-		
-		<div id="navigationRight">
-			<ul>
-				<li><a href="#" id="contact"> CONTACT </a></li>
-				<li><a href="#" id="resume"> RESUME </a></li>
-			</ul>
-		</div>
-	</div>
-	<hr/>
-</header>
-
 <div id="main">
-	<section class="content currentpage" id="projectContent"><!-- Start Project Content -->
-		<h1 class="pageTitle"> MY WORK </h1>
-	
-		<section class="project">
-			<h2 class ="title">MAP MY PRODUCT</h2>
-			<h3 class ="title">Technology: HTML5, JavaScript, jQuery, JSON  </h3>
-			<div class="projectText">
-				
-				<p>This project is an HTML5 Web App Mashup. It is a product locator using the Best Buy Product, Best Buy Stores, and Google Maps APIs.
-				Search for a product and find Best Buy stores within your chosen radius that have the product in stock.</P>
-				<div id="ProductUrl">
-					<p> Link: <a href="http://people.rit.edu/snj6366/330/projecttwo/" class="url" target="_blank">Map My Product </a></p>
+	<div class="sidebar">
+		<div class="intro">
+			<div class="names">
+				<h1 class="pageName"> Stephanie Jurgiel </h1>
+				<h2 class="pageDescription"> Web Developer </h2>
+			</div>
+		</div>
+		<div class="connect">
+			<ul class="connectIcons">
+				<li class="connectIcon"> <a href="mailto:snj6366@rit.edu"><i class="fa fa-envelope fa-2x"></i></a></li>
+				<li class="connectIcon"> <a href="https://github.com/StephanieJurgiel" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+				<li class="connectIcon"> <a href="https://www.linkedin.com/pub/stephanie-jurgiel/8b/601/776" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+				<li class="connectIcon"><a><i class="fa fa-file-text fa-2x"></i></a></li>
+			</ul>
+		</div>
+		<nav class="nav">
+			<ul class="navList">
+				<li class="navElement aboutNav"><i class="fa fa-user fa-1x navIcon aboutIcon"></i> About <div class="activeCircle purple"></div></li>
+				<li class="navElement workNav"><i class="fa fa-folder-open fa-1x navIcon workIcon"></i> Work <div class="activeCircle red"></div></li>
+				<li class="navElement resumeNav"><i class="fa fa-file-text fa-1x navIcon resumeIcon"></i> Resume <div class="activeCircle blue"></div></li>
+				<li class="navElement contactNav"><i class="fa fa-phone fa-1x navIcon phoneIcon"></i> Contact <div class="activeCircle orange"></div></li>
+			</ul>
+		</nav>
+		<footer class="footer"> 
+			<p> &#169; Stephanie Jurgiel 2015.</p>
+			<p> Last updated November 10, 2015. </p>
+		</footer>
+	</div>
+
+	<div class="content">
+
+		<div class="section aboutMe currentContent">
+			<img class="profilePicture" src="images/me.jpg">
+			<div id ="text">
+				<h1 class="sectionTitle"> About </h1>
+				<section class="paragraph">
+					<p> Hi! I'm Stephanie Jurgiel.</p>
+					<p>I am a fourth year student at Rochester Institute of Technology studying for
+						a Bachelors degree in </p><p class="hilight">  Game Design and Development</p>
+					<p>, and a Minor in Psychology. I love creating projects that I can be proud of and that can inspire others. </p>
+				</section>
+				<section class="paragraph">
+					<p> I enjoy making interactive experiences and web applications and after I graduate I would love to have a career in </p><p class="hilight"> Web Development.<p>
+				</section>
+				<section class="paragraph">
+					<p> Please contact me with any questions. Thank you for visiting! <p>
+				</section>
+			</div>
+		</div> <!--End About Content -->
+
+		<div class="section contact"> 
+			<h1 class="sectionTitle"> Contact </h1>
+			
+			<h3 class="sectionDescription"> Questions? Comments? Please send me an email or give me a call! </h3>
+			<div class="options">
+				<div class="contactOption">
+					<i class="fa fa-phone fa-2x contactIcon"></i>
+					<p> (508) - 868 - 8634 </p>
+				</div>
+				<div class="contactOption">
+					<i class="fa fa-envelope fa-2x contactIcon"></i>
+					<p> snj6366@rit.edu </p>
+				</div>
+				<div class="contactOption">
+					<i class="fa fa-linkedin fa-2x contactIcon"></i>
+					<a href="https://www.linkedin.com/pub/stephanie-jurgiel/8b/601/776"> Connect with me on LinkedIn </a>
+				</div>
+				<div class="contactOption">
+					<i class="fa fa-github fa-2x contactIcon"></i>
+					<a href="https://github.com/StephanieJurgiel"> See my work on Github </a>
 				</div>
 			</div>
-			<img class="projectImage" src="images/MapMyProduct.png" alt="MapMyProductPreview"/>
-		</section>
-		
-		<div class="dots"> 
-			<img src="images/dots.png" alt="dots" class="dotsImage"/>
-		</div>
-		
-		<section class="project">
-			<h2 class ="title">PARTICLE JAM</h2>
-			<h3 class="title"> Technology: HTML5, JavaScript </h3>
+		</div><!-- End Contact Content -->
+	
+		<div class="section work"><!-- Start Project Content -->
+			<h1 class="sectionTitle"> Work </h1>
 			
-			<div class="projectText">
-				
-				<p>Particle Jam is a Javascript Web Game. Collect colored clouds that spawn to the music to get the highest score possible. 
-					Collect multiple clouds in a row to activate the points multiplier. Miss too many clouds, and the 
-					game is over.</P>
-				
+
+			<section class="project">
+				<div class="projectImage">
+					<img src="images/PicMe.png">
+				</div>
+				<div class="projectContent">
+					<h2 class ="title">PicMe</h2>
+					<h3 class ="projectTech">Node.js, MongoDB, Jade, MVC</h3>
+					<div class="projectText">
+						<p>PicMe is a multiuser web application where users can post images to share them with other users. Register and login to start sharing and see the pictures that your friends have shared. </p>
+						<div class="projectLink">
+							<p><a href="https://picme-app.herokuapp.com/app" class="url" target="_blank">PicMe</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="project">
+				<div class="projectImage">
+					<img src="images/NoImage.png">
+				</div>
+				<div class="projectContent">
+					<h2 class ="title">Bloxeo - (In Progress)</h2>
+					<h3 class ="projectTech">React.js, SCSS</h3>
+					<div class="projectText">
+						<p>Bloxeo is a collaborative brainstorming web application. Team members work together to generate, combine, and vote on ideas in order to narrow the focus of or create a goal for a project. </p>
+					</div>
+				</div>
+			</section>
+
+			<section class="project">
+				<div class="projectImage">
+					<img src="images/MapMyProduct.png">
+				</div>
+				<div class="projectContent">
+					<h2 class ="projectTitle">Map My Product</h2>
+					<h3 class ="projectTech">HTML5, JavaScript, jQuery, JSON  </h3>
+					<div class="projectText">
+						<p>Map My Product is an HTML5 Web App Mashup. It is a product locator using the Best Buy Product, Best Buy Stores, and Google Maps APIs.
+						Search for a product and find Best Buy stores within your chosen radius that have the product in stock.</P>
+						<div class="projectLink">
+							<p><a href="http://people.rit.edu/snj6366/330/projecttwo/" class="url" target="_blank">Map My Product </a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="project">
+				<div class="projectImage">
+					<img src="images/ParticleJam.png">
+				</div>
+				<div class="projectContent">
+				<h2 class ="title">Particle Jam</h2>
+					<h3 class ="projectTech">HTML5, JavaScript</h3>
+					<div class="projectText">
+						
+						<p>Particle Jam is a Javascript Web Game. Collect colored clouds that spawn to the music to get the highest score possible. 
+						Collect multiple clouds in a row to activate the points multiplier. Miss too many clouds, and the 
+						game is over.</p>
+						<div class="projectLink">
+							<p><a href="http://people.rit.edu/snj6366/330/projecttwo/" class="url" target="_blank">Particle Jam</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div><!-- End Project Content-->
+
+		<section  class="section" id="resumeContent">
+			<div id ="top">
+				<p><strong>Stephanie Jurgiel</strong></p>
+				<p>snj6366@rit.edu </p>
+				<p>(508) 868 - 8634</p>
+			</div>	
+
+			<div class = "contentgroup">
+				<section class = "resumetitle">
+					<p> education </p>
+				</section>
+				<section class = "educationcontent">
+					<p><strong> Rochester Institute of Technology</strong>, Rochester, NY <p>
+					<p>BS Game Design and Development expected December 2015 </p>
+					<p>Minor: Psychology </p>
+					<p>GPA: 3.97 </p>
+					<p>Dean's List: 2012 - 2015</p>
+				</section>
 			</div>
-			<img class="projectImage" src="images/ParticleJam.png" alt="ParticleJamPreview"/>
-		</section>
-		
-		<div class="dots"> 
-			<img src="images/dots.png" alt="dots" class="dotsImage"/>
-		</div>
-		
-		<section class="project">
-			<h2 class ="title">OpenGL ENGINE</h2>
-			<h3 class ="title">Technology: C++, OpenGL, GLUT, GLEW, SOIL </h3>
-			
-			<div class="projectText">
-				
-				<p>This project is the beginnings of game engine created for my data structures and algorithms class.</p>
-				<p>Features:</p>
+			<div class = "contentgroup">
+				<section class = "resumetitle">
+					<p> skills </p>
+				</section>
+				<section class = "skillscontent">
 					<ul>
-						<li>Procedurally generated and tesselated cube, sphere, cone, and cylinder meshes</li>
-						<li>Calculated normals and texture coordinates</li>
-						<li>Sphere-Sphere collision detection</li>
-						<li>Sphere-AABB collision detection</li>
-						<li>Octree collision detection</li>
-						<li>FPS camera controls</li>
-						<li>.obj model loading</li>
+						<li><strong> Programming Languages:</strong> HTML5, JavaScript / jQuery, CSS3, SCSS, C#, Java, C++ </li>
+						<li><strong> Development Software:</strong> Sublime Text 2, Visual Studio, Eclipse, Maya, Unity, Adobe Photoshop
+							</li>
+						<li><strong> Other:</strong> Node.js, MongoDB, React.js, Grunt, Jade, Time management skills, Desire to problem solve and learn necessary skills </li>
 					</ul>
-					
+				</section>
 			</div>
-			<img class="projectImage" src="images/OpenGLEngine.png" alt="OpenGLEnginePreview"/>
-		</section>
-		
-		<div class="dots"> 
-			<img src="images/dots.png" alt="dots" class="dotsImage"/>
-		</div>
-		
-		<section class="project">
-			<h2 class ="title">HAMSTER HOUSE</h2>
-			<h3 class ="title"> Technology: Maya, C#, Unity, Photoshop </h3>
-			
-			<div class="projectText">
-
-				<p> Hamster House is a project created in 5 weeks with a team of 4. Play as a hamster
-					and complete objectives around the house before the time runs out. I was responsible for 
-					modelling and bringing the environment into Unity, as well as some coding for interactions with 
-					the environment. </p>
-			</div>
-			<img class="projectImage" src="images/hamsterHouse.png" alt="HamsterPreview"/>
-		</section>
-		
-		<div class="dots"> 
-			<img src="images/dots.png" alt="dots" class="dotsImage"/>
-		</div>
-		
-		<section class="project">
-			<h2 class ="title">DUCKS AI</h2>
-			<h3 class ="title"> Technology: C#, Unity </h3>
-			
-			<div class="projectText">
-
-				<p>This project features steering and leader following behaviors for ducks in a pond.
-				One duck freely swims around the pond, while being contained in the water, 
-				while the others follow.</p>
-			</div>
-			<img class="projectImage" src="images/ducks.png" alt="DucksPreview"/>
-		</section>
-		
-	</section><!-- End Project Content-->
-
-	<section class="content" id="aboutMeContent">
-		<div id="aboutMe">
-				<img id="profile" src="images/profile.jpg" alt="Picture of me"/>
-
-			
-			<div id ="text">
-				<h1> About Me </h1>
-				<section class="paragraph">
-					<p> Hi! I'm Stephanie Jurgiel.
-					I am a fourth year student at Rochester Institute of Technology studying for
-					a Bachelors degree in </p><p class="hilight">  Game Design and Development</p>
-					<p>, and an immersion in Psychology. I love creating projects that I can be proud of and that can inspire others. </p>
+			<div class = "contentgroup">
+				<section class = "resumetitle">
+					<p> projects </p>
 				</section>
-				<section class="paragraph">
-					<p> I enjoy </p> <p class="hilight"> working with a team</p> <p>, but am also great at using my </p>
-					<p class="hilight"> time management skills </p><p> to work efficiently independently. All work I do
-					is completed with one hundred percent effort to create the best work possible.</p>
-				</section>
-				<section class="paragraph">
-					<p> Please contact me with any questions.<p>
-				</section>
-				<section class="paragraph">
-					<p> Thank you for visiting! </p>
-				</section>
-			</div><!--end text-->
-		</div>
-	</section>
-	
-	<section id="contactMe"> 
-		<h1 class="pageTitle"> CONTACT ME </h1>
-		
-		<h3 id="contactHeader"> Questions? Comments? Please send me an email or give me a call! </h3>
-		
-		<div class="contactOption">
-			<img src="images/phone.png" alt="phone"/>
-			<p> (508) - 868 - 8634 </p>
-		</div>
-		<div class="contactOption">
-			<img src="images/email.png" alt="e-mail"/>
-			<p> snj6366@rit.edu </p>
-		</div>
-		<div class="contactOption">
-			<img src="images/linkedin.png" alt="LinkedIn"/>
-			<a href ="https://www.linkedin.com/pub/stephanie-jurgiel/8b/601/776"> Connect with me on LinkedIn </a>
-		</div>
-	</section>
-	
-	<section id="resumeContent">
-		<div id ="top">
-			<p><strong>Stephanie Jurgiel</strong></p>
-			<p>snj6366@rit.edu </p>
-			<p>(508) 868 - 8634</p>
-		</div>	
-
-		<div class = "contentgroup">
-			<section class = "resumetitle">
-				<p> education </p>
-			</section>
-			<section class = "content">
-				<p><strong> Rochester Institute of Technology, Rochester, NY </strong> <p>
-				<p>Major: Game Design and Development </p>
-				<p>Degree: Bachelor of Science expected December 2015</p>
-				<p>Concentration: Psychology </p>
-				<p>GPA: 3.97 </p>
-				<p>Dean's List: 2012 - 2014</p>
-			</section>
-		</div>
-		<div class = "contentgroup">
-			<section class = "resumetitle">
-				<p> relevant courses </p>
-			</section>
-			<section class = "content">
-				<ul>
-					<li> Game Software Development I, II, and III </li>
-					<li> Advanced Animation & Asset Production </li>
-					<li> Data Structures and Algorithms and Game Simulation I and II </li>
-					<li> Web Design & Development I and II </li>
-					<li> Rich Media Web App Development</li>
-					<li> Game Design and Development I, and II </li>
-					<li> 2D Animation for Interactive Media </li>
-					<li> Interactive Media Development </li>
-					<li> Interaction, Immersion, & the Media Interface </li>
-				</ul>
-			</section>
-		</div>
-		<div class = "contentgroup">
-			<section class = "resumetitle">
-				<p> skills </p>
-			</section>
-			<section class = "content">
-				<ul>
-					<li><strong> Programming Languages:</strong> C#, Java, C++, HTML, Javascript / jQuery, CSS3, OpenGL 3.x+ </li>
-					<li><strong> Development Software:</strong> Visual Studio, Eclipse, Unity, Maya, Adobe Photoshop, 
-						Processing, Flash
-						</li>
-					<li><strong> Other:</strong> Excellent time management and planning, 
-						Works efficiently in a team and independently, Desire to problem solve and learn necessary 
-						skills </li>
-				</ul>
-			</section>
-		</div>
-		<div class = "contentgroup">
-			<section class = "resumetitle">
-				<p> recent projects </p>
-			</section>
-			<section class = "skillscontent">
-				<ul>
-					<li> Created a Web App Mashup called Map My Product. It is a product locator that combines the Best
-						Buy Products, Best Buy Stores, and Google Maps APIs. </li>
-					<li> Created the beginnings of a game engine with C++ and OpenGL for a data structures class. Features procedurally
-						generated shapes, textures, normals, and octree implementation.</li>
-					<li> Created and programmed a 3D scene in Unity. Implemented leader following and containment 
-						steering behaviors. </li>
-
-				</ul>
-			</section>
-		</div>
-		
-		<div class = "contentgroup">
-			<section class = "resumetitle">
-				<p> Work Experience </p>
-			</section>
-			<section class = "jobcontent">
-				<p>iD Tech Camps - Instructor (July 2014 - August 2014)</p>
+				<section class = "projectscontent">
 					<ul>
-						<li>
-							Instructor for Game Programming for Apple iOS and Android with Unity, and 
-							Game Modding and Java Coding with Minecraft.
+						<li class="resumeProject"> <strong> Bloxeo - Multiuser Web Application </strong>
+							<ul>
+								<li>
+									Created with React.js and SCSS.
+								</li>
+								<li>
+									Worked on the Client Team to create a collaborative brainstorming app where users generate, combine, and vote on ideas. 
+								</li>
+							</ul>
+						</li>
+						<li class="resumeProject"> <strong> PicMe - Multiuser Web Application </strong>
+							<ul>
+								<li>
+									Created with Node.js, MongoDB, and Jade following the MVC architectural pattern
+								</li>
+								<li>
+									Users register and login to a scrolling news feed of images posted by themselves and other users. Users have the ability to search for other users and visit their personal home pages. 
+								</li>
+							</ul>
+						</li>
+						<li class="resumeProject"> <strong> Map My Product - Web App Mashup </strong>
+							<ul>
+								<li>
+									Created a product locator that combines the Best Buy Product, Best Buy Stores, and Google Maps APIs.
+								</li>
+								<li>
+									Users type in the name of a product to locate Best Buy stores around their location that currently have the product in stock.
+								</li>
+							</ul>
 						</li>
 					</ul>
-				
-			</section>
-		</div>
-	</section>
+				</section>
+			</div>
+			
+			<div class = "contentgroup">
+				<section class = "resumetitle">
+					<p> Work Experience </p>
+				</section>
+				<section class = "jobcontent">
+					<p><strong>iD Tech Camps</strong>, Waltham, MA (June - August 2014)</p>
+				</p> Instructor </p>
+						<ul>
+							<li>
+								Instructed programming courses for 13 to 17-year-olds. Taught students game programming for iOS in Unity, and how to create mods for Minecraft with Java. 
+							</li>
+						</ul>
+				</section>
+				<section class = "jobcontent">
+					<p><strong>MCD Partners</strong>, Fairport, NY (June - August 2015)</p>
+					</p> Instructor </p>
+						<ul>
+							<li>
+								Instructed programming courses for 13 to 17-year-olds. Taught students game programming for iOS in Unity, and how to create mods for Minecraft with Java. 
+							</li>
+						</ul>
+				</section>
+			</div>
+		</section>
+
+	</div><!-- end content -->
 </div><!--end main-->
-	
-<footer> 
-	<p> &#169; Stephanie Jurgiel 2015. Last updated March 25, 2015. </p>
-</footer>
 	
 </body>
 </html>
