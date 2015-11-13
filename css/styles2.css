@@ -24,7 +24,7 @@ html, body {
 .content {
 	height: auto;
 	flex:1;
-	overflow-y: scroll;
+	overflow-y: auto;
 	overflow-x: hidden;
 	padding: 20px;
 }
@@ -158,6 +158,9 @@ footer p {
 }
 .phoneIcon {
 	color: #FF9800;
+}
+.sidebarTitle {
+	background-color: #8E24AA;
 }
 
 /* Active Circles */
@@ -315,4 +318,70 @@ a:hover {
 .pdfViewLink {
 	text-align:center;
 	margin-top: 20px;
+}
+
+@media (max-width: 1080px) {
+  .project {
+  	display:block;
+  	max-width: 400px;
+  	min-width:350px;
+  }
+
+}
+@media (max-width: 768px) {
+	body {
+		height: auto;
+	}
+  #main {
+  	display: block;
+  }
+  .sidebar {
+  	width: 100%;
+  }
+  .intro {
+  	height: 120px;
+  	display: inline-block;
+  	height: auto;
+  }
+  .names {
+  	text-align: center;
+  	padding-right: 0px;
+  }
+  .connect {
+  	float: right;
+  	padding-top: 0px;
+  	display: inline-block;
+  	margin-top: 30px;
+  }
+  .navElement {
+  	text-align: center;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 20px 10px;
+  }
+  .names {
+  	display:inline-block;
+		padding: 20px;
+  }
+  .footer {
+  	display: none;
+  }
+  .project {
+  	width: 100%;
+  	max-width: 100%;
+  	min-width: 0px;
+  }
+}
+@media (max-width: 555px) {
+	.intro {
+  	display:block;
+  	text-align:center;
+  }
+  .connect {
+  	display: block;
+  	margin-top: 0;
+  	float: none;
+  }
 }
