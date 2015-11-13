@@ -1,0 +1,312 @@
+*		{margin:0px; padding:0px;}
+
+html, body {
+	width: 100%;
+	font-family: "Roboto";
+	height: 100%;
+}
+#main {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	height: 100%;
+
+}
+
+.section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/* Sections */
+.pageDescription {
+	color: #F3E5F5;
+	font-weight:100;
+}
+.content {
+	height: auto;
+	flex:1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 20px;
+}
+
+/* Intro */
+.intro {
+	background-color: #8E24AA;
+	height: 240px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.names {
+	text-align: right;
+	padding-right:30px;
+	font-weight:100;
+}
+.pageName {
+	//color: #F3E5F5;
+	color: white;
+	padding: 0;
+	font-weight:500;
+}
+.sectionTitle {
+	text-align:center;
+	color: black;
+}
+.sectionDescription {
+	text-align: center;
+	font-weight: 400;
+}
+#text {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align:center;
+	color: #9C27B0;
+	line-height: 27px;
+}
+.paragraph p, .highlight a {
+	display: inline;	
+}
+.paragraph {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+h1 {
+	color: black;
+	padding: 20px;
+}
+.hilight {
+	color: #AB47BC;
+	display: inline;
+	font-weight: bold;
+}
+
+/* contact */
+.options {
+	display: inline-block;
+}
+
+/* footer */
+footer {
+	width: 100%;
+}
+footer p {
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	line-height: 18px;
+}
+
+/* Navigation */
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	-webkit-box-shadow: 2px 0px 5px -2px rgba(0,0,0,0.75);
+		 -moz-box-shadow: 2px 0px 5px -2px rgba(0,0,0,0.75);
+				  box-shadow: 2px 0px 5px -2px rgba(0,0,0,0.75);
+}
+.connectIcons {
+	display: flex;
+	justify-content: space-around;
+	width: 275px;
+	margin: 0 auto;
+}
+.connect {
+	background-color: #8E24AA;
+	padding: 10px 0px;
+}
+
+.connectIcon {
+	color: #8E24AA;
+	display: inline-block;
+	background-color: white;
+	padding:7px;
+	border-radius: 50%;
+}
+.connectIcon:hover {
+	color: #E1BEE7;
+	cursor: pointer;
+}
+.nav {
+	flex:1;
+}
+.navElement {
+	font-size: 18px;
+	padding:20px 30px;
+	font-weight: 500;
+	border-bottom: 1px solid #EEE;
+	color: #757575;
+
+	-webkit-transition: background-color 0.2s ease-in-out;
+    		  transition: background-color 0.2s ease-in-out;
+}
+.navElement:hover {
+	background-color: #E1BEE7;
+	cursor: pointer;
+}
+.navIcon {
+	padding-right: 20px;
+}
+.aboutIcon {
+	color: #8E24AA;
+}
+.workIcon {
+	color: #F44336;
+}
+.resumeIcon {
+	color: #03A9F4;
+}
+.phoneIcon {
+	color: #FF9800;
+}
+
+/* Active Circles */
+.activeCircle {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: none;
+	float: right;
+	margin-top: 3px;
+}
+.purple {
+	background-color: #8E24AA;
+}
+.red {
+	background-color: #F44336;
+}
+.blue {
+	background-color: #03A9F4;
+}
+.orange {
+	background-color: #FF9800;
+}
+/* About Page */
+.aboutMe {
+	background-color: #fff;
+	text-align:center;
+}
+.profilePicture {
+	width: 225px;
+	border-radius: 50%;
+}
+
+
+/* Contact */
+.contact {
+	text-align:center;
+}
+.contactOption {
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.contactIcon {
+	width: 25px;
+	display: inline;
+	float: left;
+	padding-right: 10px;
+}
+.contactOption p, .contactOption a {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 31px;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	display: inline;
+	//color: #FBC02D;
+	color: #8BC34A;
+	font-weight: 600;
+	
+	-webkit-transition: color 0.1s ease-in-out;
+    		  transition: color 0.1s ease-in-out;
+}
+a:hover {
+	//color: #F48FB1;
+	color: #C5E1A5;
+}
+
+/* Work section */
+.project {
+	display: flex;
+	max-width: 670px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 40px;
+	min-width: 670px;
+}
+.projectImage {
+	flex: 1;
+	margin-right: 20px;
+}
+.projectImage img {
+	width: 100%;
+	border: 1px solid black;
+}
+.projectContent {
+	width: 300px;
+}
+.projectTitle {
+	margin-bottom: 10px;
+}
+.projectTech {
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.projectLink {
+	margin-top: 20px;
+}
+
+/* Fading */
+.contact, .work {
+	display: none;
+}
+.currentContent {
+	display: block;
+}
+
+/* Resume */
+#resumeContent {
+	width: 100%;
+}
+
+#top {
+	width: 135px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contentgroup {
+	margin-top: 20px;
+}
+.contentgroup ul {
+	list-style-type: none;
+}
+.contentgroup ul li{
+	display: list-item;
+	color: black;
+}
+
+.resumetitle {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #8E24AA;
+	font-size: 18px;
+	margin: 5px 0px;
+}
+
+.jobcontent p {
+	font-weight: bold;
+}
+.resumeProject {
+	margin-bottom: 10px !important;
+}
+.skillscontent ul li {
+	padding-bottom: 4px;
+}
