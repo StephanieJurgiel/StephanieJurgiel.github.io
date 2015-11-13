@@ -302,7 +302,7 @@ a:hover {
 .jobcontent p {
 	font-weight: bold;
 }
-.resumeProject {
+.resumeProject, .jobcontent {
 	margin-bottom: 10px !important;
 }
 .skillscontent ul li {
