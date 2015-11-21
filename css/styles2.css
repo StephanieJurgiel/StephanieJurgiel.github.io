@@ -301,8 +301,8 @@ a:hover {
 	margin: 5px 0px;
 }
 
-.jobcontent p {
-	font-weight: bold;
+.jobTitle {
+	margin-bottom: 10px;
 }
 .resumeProject, .jobcontent {
 	margin-bottom: 10px !important;
