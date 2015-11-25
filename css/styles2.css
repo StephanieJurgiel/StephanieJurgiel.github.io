@@ -246,10 +246,16 @@ a:hover {
 .projectImage {
 	flex: 1;
 	margin-right: 20px;
+	text-align:center;
 }
 .projectImage img {
 	width: 100%;
 	border: 1px solid black;
+}
+.border-none {
+	border: none !important;
+	max-height:208px !important;
+	width: auto !important;
 }
 .projectContent {
 	width: 300px;
